@@ -1,0 +1,8 @@
+*0.1.1* (7 Dec 2006)
+
+* Added logging [Matthew Bass]
+* Now rescuing and logging RSS parsing errors [Matthew Bass]
+
+*0.1.0* (6 Dec 2006)
+
+* Initial project [John W. Long]

@@ -1,0 +1,51 @@
+== Welcome to FeedChamp
+
+FeedChamp is a light-weight RSS Feed Agregator programmed in Camping.
+It's really just an experiment right now, but perhaps you will find
+it useful.
+
+
+== Installation
+
+FeedChamp depends on the following gems:
+
+  camping
+  simple-rss
+  sqlite3-ruby
+
+If you have problems installing the sqlite3 gem see:
+
+  http://code.whytheluckystiff.net/camping/wiki/BeAlertWhenOnSqlite3
+
+Once you have the dependencies installed copy feedchamp.rb into the
+directory of your choice, create a configuration file,  and start the
+camping server:
+
+  camping -d feedchamp.db .
+
+
+== Configuration
+
+Configuration for FeedChamp is simple. Just create a YAML file in the
+same directory that feedchamp.rb is installed and call it config.yml.
+
+Here is a sample configuration file:
+
+  title: My Feed Planet
+  feeds:
+    - http://firstwebsite.com/feed.rss
+    - http://secondwebsite.com/feed.rss
+
+
+== Deployment
+
+When you are ready to deploy FeedChamp see:
+
+http://code.whytheluckystiff.net/camping/wiki/TheCampingServer
+
+
+== License
+
+FeedChamp is released under the MIT license and is copyright (c) 2006
+John W. Long. A copy of the MIT license can be found in the LICENSE
+file.

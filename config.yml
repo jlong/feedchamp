@@ -1,0 +1,18 @@
+id: http://planet.terralien.com/
+title: Planet Terralien
+author: Terralien Crew
+external_feed: http://feeds.feedburner.com/planet-terralien
+feeds:
+  - http://feeds.feedburner.com/WiseheartDesign
+  - http://feeds.feedburner.com/terralien-ships-log
+  - http://feeds.feedburner.com/talbott-blog
+  - http://feeds.feedburner.com/mattmccray
+  - http://feeds.feedburner.com/codora
+  - http://feeds.feedburner.com/pelargir
+  - http://feeds.feedburner.com/TheGeekBlogOfCodora
+  - http://home.thewilliams.ws/feed/atom.xml
+  - http://typo.railsstudio.com/xml/rss20/feed.xml
+  - http://tjstankus.com/feed/atom
+  - http://asimplematterofprogramming.com/feed/atom.xml
+  - http://chrisomeara.com/rss/
+  - http://michaelahale.com/?feed=rss2
